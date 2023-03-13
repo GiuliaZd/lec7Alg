@@ -4,6 +4,12 @@
 
 - Answer at least 5 questions from the following link. Make sure you write the question as well as the answer.
   https://opendsa-server.cs.vt.edu/OpenDSA/Exercises/Graph/GraphIntroSumm.html
+  the answer:
+  What is the in degree of vertex 3? - 1
+  A complete graph is a clique of size: IVI
+  What is the degree of Vertex 3? - 2
+  Given a subset S of the vertices in a graph, when all vertices in S connect to all other vertices in S, this is called a: clique
+  A graph containing all possible edges is a **\_** graph - complete
 
 > You can refer to [link #2](#links) below for more info.
 
@@ -11,6 +17,7 @@
 
 - Discuss how depth-first search works by experimenting with the following link. Try both directed and undirected graphs and write a short summary.
   https://opendsa-server.cs.vt.edu/OpenDSA/AV/Graph/DFSAV.html
+  answer:
 
 > You can refer to [link #3](#links) below for more info.
 
