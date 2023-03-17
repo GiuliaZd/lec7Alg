@@ -19,12 +19,20 @@
   https://opendsa-server.cs.vt.edu/OpenDSA/AV/Graph/DFSAV.html
   answer:
 
+Depth-first search (DFS) is yet another technique used to traverse a tree or a graph.
+
+DFS starts with a root node or a start node and then explores the adjacent nodes of the current node by going deeper into the graph or a tree. This means that in DFS the nodes are explored depth-wise until a node with no children is encountered.
+
+Once the leaf node is reached, DFS backtracks and starts exploring some more nodes in a similar fashion.
+
 > You can refer to [link #3](#links) below for more info.
 
 ## Task 3
 
 - Discuss how breadth-first search works by experimenting with the following link. Try both directed and undirected graphs and write a short summary.
   https://opendsa-server.cs.vt.edu/OpenDSA/AV/Graph/BFSAV.html
+  the answer:
+  Breadth-first algorithm starts with the root node and then traverses all the adjacent nodes. Then, it selects the nearest node and explores all the other unvisited nodes. This process is repeated until all the nodes in the graph are explored.
 
 > You can refer to [link #4](#links) below for more info.
 
@@ -33,12 +41,26 @@
 - Reproduce the behavior of the BFS algorithm for the following graph:
   https://opendsa-server.cs.vt.edu/OpenDSA/AV/Graph/BFSPE.html
 
+  the answer:
+  Given below is the algorithm for BFS technique.
+  there is a graph which we are going to traverse using the BFS algorithm.
+
+Let A be the root/starting node of the graph.
+
+Step 1: Start with node A and enqueue it to the queue.
+Step 2: Repeat the following steps for all the nodes in the graph.
+Step 3: Dequeue A and process it.
+Step 4: Enqueue all the adjacent nodes of S and process them.
+[END OF LOOP]
+Step 6: EXIT
+
 > You can refer to [link #4](#links) below.
 
 ## Task 5: Individual (at home)
 
 - There are two traditional approaches to representing graphs: The adjacency matrix and the adjacency list. What are the main differences in term of space/time complexity. You can refer to following link:
   https://www.baeldung.com/cs/adjacency-matrix-list-complexity
+  the answer:
 
 ## Links
 
