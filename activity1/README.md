@@ -17,7 +17,7 @@
 
 - Discuss how depth-first search works by experimenting with the following link. Try both directed and undirected graphs and write a short summary.
   https://opendsa-server.cs.vt.edu/OpenDSA/AV/Graph/DFSAV.html
-  answer:
+  the answer:
 
 Depth-first search (DFS) is yet another technique used to traverse a tree or a graph.
 
@@ -60,7 +60,9 @@ Step 6: EXIT
 
 - There are two traditional approaches to representing graphs: The adjacency matrix and the adjacency list. What are the main differences in term of space/time complexity. You can refer to following link:
   https://www.baeldung.com/cs/adjacency-matrix-list-complexity
-  the answer:
+  the answer: for adjacency matrix - Assuming the graph has \boldsymbol{n} vertices, the time complexity to build such a matrix is \boldsymbol{O(n^2)}. The space complexity is also \boldsymbol{O(n^2)}. Given a graph, to build the adjacency matrix, we need to create a square n \times n matrix and fill its values with 0 and 1. It costs us O(n^2) space.
+  To fill every value of the matrix we need to check if there is an edge between every pair (v*{i}, v*{j}) of vertices. The amount of such pairs of n given vertices is {n \choose 2} = \frac{n \times (n - 1)}{2}. That is why the time complexity of building the matrix is O(n^2).
+  for adjacency list - If m is the number of edges in a graph, then the time complexity of building such a list is O(m). The space complexity is O(n + m). But, in the worst case of a complete graph, which contains n \2 edges, the time and space complexities reduce to O(n^2).
 
 ## Links
 
